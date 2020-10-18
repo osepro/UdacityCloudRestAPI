@@ -9,6 +9,9 @@ export const config = {
     aws_profile: process.env.POSTGRES_AWS_PROFILE,
     aws_media_bucket: process.env.POSTGRES_AWS_MEDIA_BUCKET,
   },
+  jwt: {
+    secret: process.env.POSTGRES_JWT,
+  },
   prod: {
     username: "",
     password: "",
